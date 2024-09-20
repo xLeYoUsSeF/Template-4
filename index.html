@@ -1,0 +1,666 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
+      integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="stylesheet" href="Css-Function/index.css" />
+    <link rel="stylesheet" href="Css-Function/normalize.css" />
+    <link rel="stylesheet" href="Css-Function/private.css" />
+    <link rel="stylesheet" href="Media-Function/media.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/remixicon@4.3.0/fonts/remixicon.min.css"
+    />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Dashboard</title>
+    <style>
+      body {
+        background-color: #f1f5f9;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="page">
+      <aside>
+        <div class="side">
+          <h3>xLeYoUsSeF</h3>
+          <ul>
+            <li class="activated">
+              <a href="index.html">
+                <i class="fa-regular fa-chart-bar fa-fw"></i>
+                <span>Dashboard</span>
+              </a>
+            </li>
+            <li>
+              <a href="settings.html">
+                <i class="fa-solid fa-gear fa-fw"></i>
+                <span>Settings</span>
+              </a>
+            </li>
+            <li>
+              <a href="profile.html">
+                <i class="fa-regular fa-user fa-fw"></i>
+                <span>Profile</span>
+              </a>
+            </li>
+            <li>
+              <a href="projects.html">
+                <i class="fa-solid fa-diagram-project fa-fw"></i>
+                <span>Projects</span>
+              </a>
+            </li>
+            <li>
+              <a href="courses.html">
+                <i class="fa-solid fa-graduation-cap fa-fw"></i>
+                <span>Courses</span>
+              </a>
+            </li>
+            <li>
+              <a href="friends.html">
+                <i class="fa-regular fa-circle-user fa-fw"></i>
+                <span>Friends</span>
+              </a>
+            </li>
+            <li>
+              <a href="files.html">
+                <i class="fa-regular fa-file fa-fw"></i>
+                <span>Files</span>
+              </a>
+            </li>
+            <li>
+              <a href="plans.html">
+                <i class="fa-regular fa-credit-card fa-fw"></i>
+                <span>Plans</span>
+              </a>
+            </li>
+          </ul>
+        </div>
+      </aside>
+      <div class="another-page">
+        <nav>
+          <div class="content">
+            <div class="search">
+              <i class="ri-search-line"></i
+              ><input type="text" placeholder="Type A Keyword" />
+            </div>
+            <div class="profile">
+              <i class="fa-regular fa-bell fa-lg"></i>
+              <img style="border-radius: 50%;" src="Imgs-Function/nc1yc3v.jpg" alt="img" />
+            </div>
+          </div>
+        </nav>
+        <div class="main-title">
+          <h1>Dashboard</h1>
+        </div>
+        <div class="wrapper">
+          <div class="box1">
+            <div class="welcome">
+              <div class="border-title">
+                <h2>Welcome</h2>
+                <p>xLeYoUsSeF</p>
+              </div>
+              <div class="ui">
+                <img src="Imgs-Function/welcome.png" alt="img" />
+              </div>
+            </div>
+            <img src="Imgs-Function/nc1yc3v.jpg" alt="img" class="mid-img" />
+            <div class="mid">
+              <div class="group">
+                <h3>xLeYoUsSeF</h3>
+                <p>Developer</p>
+              </div>
+              <div class="group">
+                <h3>80</h3>
+                <p>Projects</p>
+              </div>
+              <div class="group">
+                <h3>$8500</h3>
+                <p>Earned</p>
+              </div>
+            </div>
+            <div class="profile">
+              <a href="profile.html">Profile</a>
+            </div>
+          </div>
+          <div class="box2">
+            <div class="border-title">
+              <h2>Quick Draft</h2>
+              <p>Write A Draft For Your Ideas</p>
+            </div>
+            <form action=".">
+              <input placeholder="Title" type="text" />
+              <textarea placeholder="Your Thought" name="." id="."></textarea>
+            </form>
+            <input type="submit" value="Save" />
+          </div>
+          <div class="box3">
+            <div class="border-title">
+              <h2>Yearly Targets</h2>
+              <p>Targets Of The Year</p>
+            </div>
+            <div class="progress">
+              <div class="group">
+                <div class="icon">
+                  <i class="fa-solid fa-dollar-sign fa-lg c-blue"></i>
+                </div>
+                <div class="desc">
+                  <p>Money</p>
+                  <h3>$20.000</h3>
+                  <div class="bar1">
+                    <span style="width: 80%" data-progress="80%"></span>
+                  </div>
+                </div>
+              </div>
+              <div class="group">
+                <div class="icon">
+                  <i class="fa-solid fa-code fa-lg c-orange"></i>
+                </div>
+                <div class="desc">
+                  <p>Projects</p>
+                  <h3>24</h3>
+                  <div class="bar1">
+                    <span style="width: 55%" data-progress="55%"></span>
+                  </div>
+                </div>
+              </div>
+              <div class="group">
+                <div class="icon">
+                  <i class="fa-solid fa-user fa-lg c-green"></i>
+                </div>
+                <div class="desc">
+                  <p>Team</p>
+                  <h3>12</h3>
+                  <div class="bar1">
+                    <span style="width: 75%" data-progress="75%"></span>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="box4">
+            <div class="border-title">
+              <h2>Tickets Statistics</h2>
+              <p>Everything About Support Tickets</p>
+            </div>
+            <div class="boxes">
+              <div class="group" style="text-align: center">
+                <i
+                  class="fa-regular fa-rectangle-list fa-2x mb-10"
+                  style="color: var(--orange-color)"
+                ></i>
+                <h3>2500</h3>
+                <p>Total</p>
+              </div>
+              <div class="group" style="text-align: center">
+                <i
+                  class="fa-solid fa-spinner fa-2x mb-10"
+                  style="color: var(--main-color)"
+                ></i>
+                <h3>500</h3>
+                <p>Pending</p>
+              </div>
+              <div class="group" style="text-align: center">
+                <i
+                  class="fa-regular fa-circle-check fa-2x mb-10"
+                  style="color: var(--lime-color)"
+                ></i>
+                <h3>1900</h3>
+                <p>Closed</p>
+              </div>
+              <div class="group" style="text-align: center">
+                <i
+                  class="fa-regular fa-rectangle-xmark fa-2x mb-10"
+                  style="color: var(--red-color)"
+                ></i>
+                <h3>100</h3>
+                <p>Deleted</p>
+              </div>
+            </div>
+          </div>
+          <div class="box5">
+            <div class="border-title">
+              <h2>Latest News</h2>
+            </div>
+            <div class="group">
+              <img src="Imgs-Function/news-01.png" alt="img" />
+              <div class="desc1">
+                <h3>Created SASS Section</h3>
+                <p>New SASS Examples & Tutorials</p>
+              </div>
+              <p>3 Days Ago</p>
+            </div>
+            <div class="group">
+              <img src="Imgs-Function/news-02.png" alt="img" />
+              <div class="desc1">
+                <h3>Changed The Design</h3>
+                <p>A Brand New Website Design</p>
+              </div>
+              <p>5 Days Ago</p>
+            </div>
+            <div class="group">
+              <img src="Imgs-Function/news-03.png" alt="img" />
+              <div class="desc1">
+                <h3>Team Increased</h3>
+                <p>3 Developers Joined The Team</p>
+              </div>
+              <p>7 Days Ago</p>
+            </div>
+            <div class="group">
+              <img src="Imgs-Function/news-04.png" alt="img" />
+              <div class="desc1">
+                <h3>Added Payment Gateway</h3>
+                <p>Many New Payment Gateways Added</p>
+              </div>
+              <p>9 Days Ago</p>
+            </div>
+          </div>
+          <div class="box6">
+            <div class="border-title">
+              <h2>Latest Tasks</h2>
+            </div>
+            <div class="group">
+              <div class="desc2">
+                <h3>Record One New Video</h3>
+                <p>Record Python Create Exe Project</p>
+              </div>
+              <div class="ic">
+                <i class="ri-delete-bin-5-line"></i>
+              </div>
+            </div>
+            <div class="group">
+              <div class="desc2">
+                <h3>Write Article</h3>
+                <p>Write Low Level vs High Level Languages</p>
+              </div>
+              <div class="ic">
+                <i class="ri-delete-bin-5-line"></i>
+              </div>
+            </div>
+            <div class="group">
+              <div class="desc2">
+                <h3>Finish Project</h3>
+                <p>Publish Academy Programming Project</p>
+              </div>
+              <div class="ic">
+                <i class="ri-delete-bin-5-line"></i>
+              </div>
+            </div>
+            <div class="group">
+              <div class="desc2 delete">
+                <h3><del>Attend The Meeting</del></h3>
+                <p><del>Attend The Project Business Analysis Meeting</del></p>
+              </div>
+              <div class="ic">
+                <i class="ri-delete-bin-5-line"></i>
+              </div>
+            </div>
+            <div class="group">
+              <div class="desc2">
+                <h3>Finish Lesson</h3>
+                <p>Finish Teaching Flex Box</p>
+              </div>
+              <div class="ic">
+                <i class="ri-delete-bin-5-line"></i>
+              </div>
+            </div>
+          </div>
+          <div class="box7">
+            <div class="border-title">
+              <h2>Latest Uploads</h2>
+            </div>
+            <div class="group">
+              <div class="img">
+                <img src="Imgs-Function/pdf.svg" alt="pdf" />
+                <div class="desc3">
+                  <p>my-file.pdf</p>
+                  <p>xLeYoUsSeF</p>
+                </div>
+              </div>
+              <div class="mb">
+                <p>2.9mb</p>
+              </div>
+            </div>
+            <div class="group">
+              <div class="img">
+                <img src="Imgs-Function/avi.svg" alt="avi" />
+                <div class="desc3">
+                  <p>My-Vide-File.avi</p>
+                  <p>Admin</p>
+                </div>
+              </div>
+              <div class="mb">
+                <p>4.9mb</p>
+              </div>
+            </div>
+            <div class="group">
+              <div class="img">
+                <img src="Imgs-Function/psd.svg" alt="psd" />
+                <div class="desc3">
+                  <p>My-Psd-File.psd</p>
+                  <p>Youssef</p>
+                </div>
+              </div>
+              <div class="mb">
+                <p>4.5mb</p>
+              </div>
+            </div>
+            <div class="group">
+              <div class="img">
+                <img src="Imgs-Function/zip.svg" alt="zip" />
+                <div class="desc3">
+                  <p>My-Zip-File.pdf</p>
+                  <p>User</p>
+                </div>
+              </div>
+              <div class="mb">
+                <p>8.9mb</p>
+              </div>
+            </div>
+            <div class="group">
+              <div class="img">
+                <img src="Imgs-Function/dll.svg" alt="dll" />
+                <div class="desc3">
+                  <p>My-DLL-File.dll</p>
+                  <p>Admin</p>
+                </div>
+              </div>
+              <div class="mb">
+                <p>4.9mb</p>
+              </div>
+            </div>
+            <div class="group">
+              <div class="img">
+                <img src="Imgs-Function/eps.svg" alt="eps" />
+                <div class="desc3">
+                  <p>My-Eps-File.eps</p>
+                  <p>Designer</p>
+                </div>
+              </div>
+              <div class="mb">
+                <p>8.9mb</p>
+              </div>
+            </div>
+          </div>
+          <div class="box8">
+            <div class="border-title">
+              <h2>Top Search Items</h2>
+              <div class="flex-p">
+                <p>Keyword</p>
+                <p>Search Count</p>
+              </div>
+            </div>
+            <div class="group">
+              <p>Programming</p>
+              <p>220</p>
+            </div>
+            <div class="group">
+              <p>Javascript</p>
+              <p>180</p>
+            </div>
+            <div class="group">
+              <p>PHP</p>
+              <p>160</p>
+            </div>
+            <div class="group">
+              <p>Code</p>
+              <p>145</p>
+            </div>
+            <div class="group">
+              <p>Design</p>
+              <p>110</p>
+            </div>
+            <div class="group">
+              <p>Logic</p>
+              <p>95</p>
+            </div>
+          </div>
+          <div class="box9">
+            <div class="border-title">
+              <h2>Last Project Progress</h2>
+            </div>
+            <div class="group">
+              <div class="circle"></div>
+              <div class="desc">
+                <p>Got The Project</p>
+              </div>
+            </div>
+            <div class="group">
+              <div class="circle"></div>
+              <div class="desc">
+                <p>Started The Project</p>
+              </div>
+            </div>
+            <div class="group">
+              <div class="circle"></div>
+              <div class="desc">
+                <p>The Project About To Finish</p>
+              </div>
+            </div>
+            <div class="group">
+              <div class="circle"></div>
+              <div class="desc">
+                <p>Test The Project</p>
+              </div>
+            </div>
+            <div class="group">
+              <div class="circle"></div>
+              <div class="desc">
+                <p>Finish The Project & Get Money</p>
+              </div>
+              <img src="Imgs-Function/project.png" alt="rocket" />
+            </div>
+          </div>
+          <div class="box10">
+            <div class="border-title">
+              <h2>Reminders</h2>
+            </div>
+            <div class="group">
+              <div class="circle"></div>
+              <div class="desc">
+                <h3>Check My Tasks Lists</h3>
+                <p>28/09/2022 - 12:00am</p>
+              </div>
+            </div>
+            <div class="group">
+              <div class="circle"></div>
+              <div class="desc">
+                <h3>Check My Projects</h3>
+                <p>26/10/2022 - 12:00am</p>
+              </div>
+            </div>
+            <div class="group">
+              <div class="circle"></div>
+              <div class="desc">
+                <h3>Call All My Clients</h3>
+                <p>05/11/2022 - 12:00am</p>
+              </div>
+            </div>
+            <div class="group">
+              <div class="circle"></div>
+              <div class="desc">
+                <h3>Finish The Development Workshop</h3>
+                <p>20/12/2022 - 12:00am</p>
+              </div>
+            </div>
+          </div>
+          <div class="box11">
+            <div class="border-title">
+              <h2>Latest Post</h2>
+            </div>
+            <div class="group">
+              <img src="Imgs-Function/avatar.png" alt="img" />
+              <div class="desc">
+                <h3>Youssef Ahmed</h3>
+                <p>About 3 Hours Ago</p>
+              </div>
+            </div>
+            <div class="post">
+              <p>
+                You can fool all of the people some of the time, and some of the
+                people all of the time, but you can't fool all of the people all
+                of the time.
+              </p>
+            </div>
+            <div class="like-comments">
+              <div class="like">
+                <i class="fa-regular fa-heart"></i>
+                <p>1.8k</p>
+              </div>
+              <div class="comments">
+                <i class="fa-regular fa-comments"></i>
+                <p>500</p>
+              </div>
+            </div>
+          </div>
+          <div class="box12">
+            <div class="border-title">
+              <h2>Social Media Stats</h2>
+            </div>
+            <div class="group">
+              <div class="twitter">
+                <i class="fa-brands fa-twitter"></i>
+                <div class="desc">
+                  <p>90K Followers</p>
+                </div>
+              </div>
+              <div class="follow">
+                <a href="#">Follow</a>
+              </div>
+            </div>
+            <div class="group">
+              <div class="twitter">
+                <i class="fa-brands fa-facebook-f"></i>
+                <div class="desc">
+                  <p>2M Like</p>
+                </div>
+              </div>
+              <div class="follow">
+                <a href="#">Like</a>
+              </div>
+            </div>
+            <div class="group">
+              <div class="twitter">
+                <i class="fa-brands fa-youtube"></i>
+                <div class="desc">
+                  <p>1M Subs</p>
+                </div>
+              </div>
+              <div class="follow">
+                <a href="#">Subscribe</a>
+              </div>
+            </div>
+            <div class="group">
+              <div class="twitter">
+                <i class="fa-brands fa-linkedin"></i>
+                <div class="desc">
+                  <p>70K Followers</p>
+                </div>
+              </div>
+              <div class="follow">
+                <a href="#">Follow</a>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="box13">
+          <div class="border-title">
+            <h2>Projects</h2>
+          </div>
+          <table>
+            <thead>
+              <th>Name</th>
+              <th>Finish Date</th>
+              <th>Client</th>
+              <th>Price</th>
+              <th>Team</th>
+              <th>Status</th>
+            </thead>
+            <tbody>
+              <td>Ministry Wikipedia</td>
+              <td>10 May 2022</td>
+              <td>Ministry</td>
+              <td>$5300</td>
+              <td>
+                <img src="Imgs-Function/team-01.png" alt="team" />
+                <img src="Imgs-Function/team-02.png" alt="team" />
+                <img src="Imgs-Function/team-03.png" alt="team" />
+                <img src="Imgs-Function/team-04.png" alt="team" />
+              </td>
+              <td><p>Pending</p></td>
+            </tbody>
+            <tbody>
+              <td>Elzero Shop</td>
+              <td>12 Oct 2021</td>
+              <td>Elzero Company</td>
+              <td>$1500</td>
+              <td>
+                <img src="Imgs-Function/team-01.png" alt="alt" />
+                <img src="Imgs-Function/team-02.png" alt="alt" />
+                <img src="Imgs-Function/team-03.png" alt="alt" />
+              </td>
+              <td><p>In Progress</p></td>
+            </tbody>
+            <tbody>
+              <td>Bouba App</td>
+              <td>05 Sep 2021</td>
+              <td>Bouba</td>
+              <td>$800</td>
+              <td>
+                <img src="Imgs-Function/team-01.png" alt="alt" />
+                <img src="Imgs-Function/team-02.png" alt="alt" />
+              </td>
+              <td><p>Completed</p></td>
+            </tbody>
+            <tbody>
+              <td>Mahmoud Website</td>
+              <td>22 May 2021</td>
+              <td>Mahmoud</td>
+              <td>$600</td>
+              <td>
+                <img src="Imgs-Function/team-01.png" alt="alt" />
+                <img src="Imgs-Function/team-02.png" alt="alt" />
+              </td>
+              <td><p>Completed</p></td>
+            </tbody>
+            <tbody>
+              <td>Sayed Website</td>
+              <td>24 May 2021</td>
+              <td>Sayed</td>
+              <td>$300</td>
+              <td>
+                <img src="Imgs-Function/team-01.png" alt="alt" />
+                <img src="Imgs-Function/team-02.png" alt="alt" />
+              </td>
+              <td><p>Rejected</p></td>
+            </tbody>
+            <tbody>
+              <td>Arena Application</td>
+              <td>01 Mar 2021</td>
+              <td>Arena Company</td>
+              <td>$2600</td>
+              <td>
+                <img src="Imgs-Function/team-01.png" alt="alt" />
+                <img src="Imgs-Function/team-02.png" alt="alt" />
+                <img src="Imgs-Function/team-03.png" alt="alt" />
+                <img src="Imgs-Function/team-04.png" alt="alt" />
+              </td>
+              <td><p>Completed</p></td>
+            </tbody>
+          </table>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
